@@ -50,16 +50,19 @@ def paddle_a_up():
     y = paddle_a.ycor()
     paddle_a.sety(y + 20)
 
+#paddle_a_down
 
 def paddle_a_down():
     y = paddle_a.ycor()
     paddle_a.sety(y - 20)
 
+#paddle_up
 
 def paddle_b_up():
     y = paddle_b.ycor()
     paddle_b.sety(y + 20)
 
+#paddle_down
 
 def paddle_b_down():
     y = paddle_b.ycor()
